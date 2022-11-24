@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="fxnevents"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\events\;CMake Files\tests\;CMake Files\tests\lib\;CMake Files\tests\lib\googlemock\;CMake Files\tests\lib\googlemock\cmake\;CMake Files\tests\lib\googletest\;CMake Files\tests\lib\googletest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/events"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/events/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/events/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/events/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/events/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fxnevents">
+				<Option output="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/events/fxnevents" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/events"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/jsoncpp"/>
+					<Add directory="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/../common/include"/>
+					<Add directory="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/../system/include"/>
+					<Add directory="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/../system/include/common"/>
+					<Add directory="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/../system/include/misc"/>
+					<Add directory="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/../system/include/storage"/>
+					<Add directory="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/../system/include/battery"/>
+					<Add directory="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/../system/include/controller"/>
+					<Add directory="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/../ai/include"/>
+					<Add directory="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/../ai/include/common"/>
+					<Add directory="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/../recording/include"/>
+					<Add directory="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/events/Makefile&quot;  VERBOSE=1 fxnevents"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/events/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/events/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/events/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fxnevents/fast">
+				<Option output="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/events/fxnevents" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/events"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/jsoncpp"/>
+					<Add directory="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/../common/include"/>
+					<Add directory="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/../system/include"/>
+					<Add directory="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/../system/include/common"/>
+					<Add directory="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/../system/include/misc"/>
+					<Add directory="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/../system/include/storage"/>
+					<Add directory="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/../system/include/battery"/>
+					<Add directory="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/../system/include/controller"/>
+					<Add directory="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/../ai/include"/>
+					<Add directory="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/../ai/include/common"/>
+					<Add directory="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/../recording/include"/>
+					<Add directory="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/events/Makefile&quot;  VERBOSE=1 fxnevents/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/events/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/events/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/events/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/ai/source/AIServiceProxy.cpp">
+			<Option target="fxnevents"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/common/source/JsonUtility.cpp">
+			<Option target="fxnevents"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/common/source/ShellUtility.cpp">
+			<Option target="fxnevents"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/common/source/popen_noshell.cpp">
+			<Option target="fxnevents"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsRepository.cpp">
+			<Option target="fxnevents"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsRepository.h">
+			<Option target="fxnevents"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsService.cpp">
+			<Option target="fxnevents"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsService.h">
+			<Option target="fxnevents"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsServiceStub.cpp">
+			<Option target="fxnevents"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsServiceStub.h">
+			<Option target="fxnevents"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/LocalDataSource.cpp">
+			<Option target="fxnevents"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/LocalDataSource.h">
+			<Option target="fxnevents"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/Main.cpp">
+			<Option target="fxnevents"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/recording/source/RecordingServiceProxy.cpp">
+			<Option target="fxnevents"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/system/source/misc/MISCServiceProxy.cpp">
+			<Option target="fxnevents"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\events\"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/tests/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lib\"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/tests/lib/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lib\googlemock\"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/tests/lib/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\tests\lib\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/tests/lib/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\tests\lib\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/tests/lib/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lib\googletest\"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/tests/lib/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\tests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/tests/lib/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\tests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/tests/lib/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\tests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/tests/lib/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\tests\lib\googletest\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
