@@ -11,6 +11,7 @@
 #include "IRecordingServiceListener.h"
 #include "IRecordingService.h"
 
+
 class RecordingServiceStub : public IRecordingServiceListener
 {
 

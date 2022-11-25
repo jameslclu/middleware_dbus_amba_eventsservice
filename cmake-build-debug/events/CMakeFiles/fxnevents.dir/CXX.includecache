@@ -157,6 +157,10 @@ IEventsService.h
 /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/IEventsService.h
 EventsRepository.h
 /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsRepository.h
+IRecordingServiceListener.h
+/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/IRecordingServiceListener.h
+IAIServiceListener.h
+/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/IAIServiceListener.h
 
 /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsServiceStub.cpp
 string
@@ -219,6 +223,10 @@ EventsService.h
 /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsService.h
 EventsServiceStub.h
 /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsServiceStub.h
+AIServiceProxy.h
+/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/AIServiceProxy.h
+MISCServiceProxy.h
+/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/MISCServiceProxy.h
 
 /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/recording/include/IRecordingService.h
 string

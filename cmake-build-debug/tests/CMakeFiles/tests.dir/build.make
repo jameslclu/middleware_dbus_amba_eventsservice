@@ -81,9 +81,33 @@ tests/CMakeFiles/tests.dir/__/system/source/misc/MISCServiceProxy.cpp.o.provides
 tests/CMakeFiles/tests.dir/__/system/source/misc/MISCServiceProxy.cpp.o.provides.build: tests/CMakeFiles/tests.dir/__/system/source/misc/MISCServiceProxy.cpp.o
 
 
+tests/CMakeFiles/tests.dir/__/ai/source/AIServiceStub.cpp.o: tests/CMakeFiles/tests.dir/flags.make
+tests/CMakeFiles/tests.dir/__/ai/source/AIServiceStub.cpp.o: ../ai/source/AIServiceStub.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/tests.dir/__/ai/source/AIServiceStub.cpp.o"
+	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/__/ai/source/AIServiceStub.cpp.o -c /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/ai/source/AIServiceStub.cpp
+
+tests/CMakeFiles/tests.dir/__/ai/source/AIServiceStub.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/__/ai/source/AIServiceStub.cpp.i"
+	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/ai/source/AIServiceStub.cpp > CMakeFiles/tests.dir/__/ai/source/AIServiceStub.cpp.i
+
+tests/CMakeFiles/tests.dir/__/ai/source/AIServiceStub.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/__/ai/source/AIServiceStub.cpp.s"
+	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/ai/source/AIServiceStub.cpp -o CMakeFiles/tests.dir/__/ai/source/AIServiceStub.cpp.s
+
+tests/CMakeFiles/tests.dir/__/ai/source/AIServiceStub.cpp.o.requires:
+
+.PHONY : tests/CMakeFiles/tests.dir/__/ai/source/AIServiceStub.cpp.o.requires
+
+tests/CMakeFiles/tests.dir/__/ai/source/AIServiceStub.cpp.o.provides: tests/CMakeFiles/tests.dir/__/ai/source/AIServiceStub.cpp.o.requires
+	$(MAKE) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/__/ai/source/AIServiceStub.cpp.o.provides.build
+.PHONY : tests/CMakeFiles/tests.dir/__/ai/source/AIServiceStub.cpp.o.provides
+
+tests/CMakeFiles/tests.dir/__/ai/source/AIServiceStub.cpp.o.provides.build: tests/CMakeFiles/tests.dir/__/ai/source/AIServiceStub.cpp.o
+
+
 tests/CMakeFiles/tests.dir/__/ai/source/AIServiceProxy.cpp.o: tests/CMakeFiles/tests.dir/flags.make
 tests/CMakeFiles/tests.dir/__/ai/source/AIServiceProxy.cpp.o: ../ai/source/AIServiceProxy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/tests.dir/__/ai/source/AIServiceProxy.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/CMakeFiles/tests.dir/__/ai/source/AIServiceProxy.cpp.o"
 	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/__/ai/source/AIServiceProxy.cpp.o -c /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/ai/source/AIServiceProxy.cpp
 
 tests/CMakeFiles/tests.dir/__/ai/source/AIServiceProxy.cpp.i: cmake_force
@@ -105,9 +129,33 @@ tests/CMakeFiles/tests.dir/__/ai/source/AIServiceProxy.cpp.o.provides: tests/CMa
 tests/CMakeFiles/tests.dir/__/ai/source/AIServiceProxy.cpp.o.provides.build: tests/CMakeFiles/tests.dir/__/ai/source/AIServiceProxy.cpp.o
 
 
+tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceStub.cpp.o: tests/CMakeFiles/tests.dir/flags.make
+tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceStub.cpp.o: ../recording/source/RecordingServiceStub.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceStub.cpp.o"
+	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/__/recording/source/RecordingServiceStub.cpp.o -c /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/recording/source/RecordingServiceStub.cpp
+
+tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceStub.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/__/recording/source/RecordingServiceStub.cpp.i"
+	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/recording/source/RecordingServiceStub.cpp > CMakeFiles/tests.dir/__/recording/source/RecordingServiceStub.cpp.i
+
+tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceStub.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/__/recording/source/RecordingServiceStub.cpp.s"
+	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/recording/source/RecordingServiceStub.cpp -o CMakeFiles/tests.dir/__/recording/source/RecordingServiceStub.cpp.s
+
+tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceStub.cpp.o.requires:
+
+.PHONY : tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceStub.cpp.o.requires
+
+tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceStub.cpp.o.provides: tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceStub.cpp.o.requires
+	$(MAKE) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceStub.cpp.o.provides.build
+.PHONY : tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceStub.cpp.o.provides
+
+tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceStub.cpp.o.provides.build: tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceStub.cpp.o
+
+
 tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceProxy.cpp.o: tests/CMakeFiles/tests.dir/flags.make
 tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceProxy.cpp.o: ../recording/source/RecordingServiceProxy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceProxy.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceProxy.cpp.o"
 	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/__/recording/source/RecordingServiceProxy.cpp.o -c /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/recording/source/RecordingServiceProxy.cpp
 
 tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceProxy.cpp.i: cmake_force
@@ -129,9 +177,33 @@ tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceProxy.cpp.o.provi
 tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceProxy.cpp.o.provides.build: tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceProxy.cpp.o
 
 
+tests/CMakeFiles/tests.dir/__/events/source/EventsService.cpp.o: tests/CMakeFiles/tests.dir/flags.make
+tests/CMakeFiles/tests.dir/__/events/source/EventsService.cpp.o: ../events/source/EventsService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object tests/CMakeFiles/tests.dir/__/events/source/EventsService.cpp.o"
+	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/__/events/source/EventsService.cpp.o -c /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsService.cpp
+
+tests/CMakeFiles/tests.dir/__/events/source/EventsService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/__/events/source/EventsService.cpp.i"
+	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsService.cpp > CMakeFiles/tests.dir/__/events/source/EventsService.cpp.i
+
+tests/CMakeFiles/tests.dir/__/events/source/EventsService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/__/events/source/EventsService.cpp.s"
+	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsService.cpp -o CMakeFiles/tests.dir/__/events/source/EventsService.cpp.s
+
+tests/CMakeFiles/tests.dir/__/events/source/EventsService.cpp.o.requires:
+
+.PHONY : tests/CMakeFiles/tests.dir/__/events/source/EventsService.cpp.o.requires
+
+tests/CMakeFiles/tests.dir/__/events/source/EventsService.cpp.o.provides: tests/CMakeFiles/tests.dir/__/events/source/EventsService.cpp.o.requires
+	$(MAKE) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/__/events/source/EventsService.cpp.o.provides.build
+.PHONY : tests/CMakeFiles/tests.dir/__/events/source/EventsService.cpp.o.provides
+
+tests/CMakeFiles/tests.dir/__/events/source/EventsService.cpp.o.provides.build: tests/CMakeFiles/tests.dir/__/events/source/EventsService.cpp.o
+
+
 tests/CMakeFiles/tests.dir/__/events/source/EventsServiceStub.cpp.o: tests/CMakeFiles/tests.dir/flags.make
 tests/CMakeFiles/tests.dir/__/events/source/EventsServiceStub.cpp.o: ../events/source/EventsServiceStub.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tests/CMakeFiles/tests.dir/__/events/source/EventsServiceStub.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object tests/CMakeFiles/tests.dir/__/events/source/EventsServiceStub.cpp.o"
 	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/__/events/source/EventsServiceStub.cpp.o -c /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsServiceStub.cpp
 
 tests/CMakeFiles/tests.dir/__/events/source/EventsServiceStub.cpp.i: cmake_force
@@ -155,7 +227,7 @@ tests/CMakeFiles/tests.dir/__/events/source/EventsServiceStub.cpp.o.provides.bui
 
 tests/CMakeFiles/tests.dir/__/events/source/EventsServiceProxy.cpp.o: tests/CMakeFiles/tests.dir/flags.make
 tests/CMakeFiles/tests.dir/__/events/source/EventsServiceProxy.cpp.o: ../events/source/EventsServiceProxy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object tests/CMakeFiles/tests.dir/__/events/source/EventsServiceProxy.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object tests/CMakeFiles/tests.dir/__/events/source/EventsServiceProxy.cpp.o"
 	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/__/events/source/EventsServiceProxy.cpp.o -c /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsServiceProxy.cpp
 
 tests/CMakeFiles/tests.dir/__/events/source/EventsServiceProxy.cpp.i: cmake_force
@@ -179,7 +251,7 @@ tests/CMakeFiles/tests.dir/__/events/source/EventsServiceProxy.cpp.o.provides.bu
 
 tests/CMakeFiles/tests.dir/integration/EventsServiceStubProxyTest.cpp.o: tests/CMakeFiles/tests.dir/flags.make
 tests/CMakeFiles/tests.dir/integration/EventsServiceStubProxyTest.cpp.o: ../tests/integration/EventsServiceStubProxyTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object tests/CMakeFiles/tests.dir/integration/EventsServiceStubProxyTest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object tests/CMakeFiles/tests.dir/integration/EventsServiceStubProxyTest.cpp.o"
 	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/integration/EventsServiceStubProxyTest.cpp.o -c /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/tests/integration/EventsServiceStubProxyTest.cpp
 
 tests/CMakeFiles/tests.dir/integration/EventsServiceStubProxyTest.cpp.i: cmake_force
@@ -201,31 +273,63 @@ tests/CMakeFiles/tests.dir/integration/EventsServiceStubProxyTest.cpp.o.provides
 tests/CMakeFiles/tests.dir/integration/EventsServiceStubProxyTest.cpp.o.provides.build: tests/CMakeFiles/tests.dir/integration/EventsServiceStubProxyTest.cpp.o
 
 
+tests/CMakeFiles/tests.dir/system/EventServiceGotRecordingEvent.cpp.o: tests/CMakeFiles/tests.dir/flags.make
+tests/CMakeFiles/tests.dir/system/EventServiceGotRecordingEvent.cpp.o: ../tests/system/EventServiceGotRecordingEvent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object tests/CMakeFiles/tests.dir/system/EventServiceGotRecordingEvent.cpp.o"
+	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/system/EventServiceGotRecordingEvent.cpp.o -c /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/tests/system/EventServiceGotRecordingEvent.cpp
+
+tests/CMakeFiles/tests.dir/system/EventServiceGotRecordingEvent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/system/EventServiceGotRecordingEvent.cpp.i"
+	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/tests/system/EventServiceGotRecordingEvent.cpp > CMakeFiles/tests.dir/system/EventServiceGotRecordingEvent.cpp.i
+
+tests/CMakeFiles/tests.dir/system/EventServiceGotRecordingEvent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/system/EventServiceGotRecordingEvent.cpp.s"
+	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/tests/system/EventServiceGotRecordingEvent.cpp -o CMakeFiles/tests.dir/system/EventServiceGotRecordingEvent.cpp.s
+
+tests/CMakeFiles/tests.dir/system/EventServiceGotRecordingEvent.cpp.o.requires:
+
+.PHONY : tests/CMakeFiles/tests.dir/system/EventServiceGotRecordingEvent.cpp.o.requires
+
+tests/CMakeFiles/tests.dir/system/EventServiceGotRecordingEvent.cpp.o.provides: tests/CMakeFiles/tests.dir/system/EventServiceGotRecordingEvent.cpp.o.requires
+	$(MAKE) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/system/EventServiceGotRecordingEvent.cpp.o.provides.build
+.PHONY : tests/CMakeFiles/tests.dir/system/EventServiceGotRecordingEvent.cpp.o.provides
+
+tests/CMakeFiles/tests.dir/system/EventServiceGotRecordingEvent.cpp.o.provides.build: tests/CMakeFiles/tests.dir/system/EventServiceGotRecordingEvent.cpp.o
+
+
 # Object files for target tests
 tests_OBJECTS = \
 "CMakeFiles/tests.dir/__/system/source/misc/MISCServiceProxy.cpp.o" \
+"CMakeFiles/tests.dir/__/ai/source/AIServiceStub.cpp.o" \
 "CMakeFiles/tests.dir/__/ai/source/AIServiceProxy.cpp.o" \
+"CMakeFiles/tests.dir/__/recording/source/RecordingServiceStub.cpp.o" \
 "CMakeFiles/tests.dir/__/recording/source/RecordingServiceProxy.cpp.o" \
+"CMakeFiles/tests.dir/__/events/source/EventsService.cpp.o" \
 "CMakeFiles/tests.dir/__/events/source/EventsServiceStub.cpp.o" \
 "CMakeFiles/tests.dir/__/events/source/EventsServiceProxy.cpp.o" \
-"CMakeFiles/tests.dir/integration/EventsServiceStubProxyTest.cpp.o"
+"CMakeFiles/tests.dir/integration/EventsServiceStubProxyTest.cpp.o" \
+"CMakeFiles/tests.dir/system/EventServiceGotRecordingEvent.cpp.o"
 
 # External object files for target tests
 tests_EXTERNAL_OBJECTS =
 
 tests/tests: tests/CMakeFiles/tests.dir/__/system/source/misc/MISCServiceProxy.cpp.o
+tests/tests: tests/CMakeFiles/tests.dir/__/ai/source/AIServiceStub.cpp.o
 tests/tests: tests/CMakeFiles/tests.dir/__/ai/source/AIServiceProxy.cpp.o
+tests/tests: tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceStub.cpp.o
 tests/tests: tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceProxy.cpp.o
+tests/tests: tests/CMakeFiles/tests.dir/__/events/source/EventsService.cpp.o
 tests/tests: tests/CMakeFiles/tests.dir/__/events/source/EventsServiceStub.cpp.o
 tests/tests: tests/CMakeFiles/tests.dir/__/events/source/EventsServiceProxy.cpp.o
 tests/tests: tests/CMakeFiles/tests.dir/integration/EventsServiceStubProxyTest.cpp.o
+tests/tests: tests/CMakeFiles/tests.dir/system/EventServiceGotRecordingEvent.cpp.o
 tests/tests: tests/CMakeFiles/tests.dir/build.make
 tests/tests: lib/libgtest.a
 tests/tests: lib/libgtest_main.a
 tests/tests: lib/libgmock.a
 tests/tests: lib/libgtest.a
 tests/tests: tests/CMakeFiles/tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable tests"
 	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -234,11 +338,15 @@ tests/CMakeFiles/tests.dir/build: tests/tests
 .PHONY : tests/CMakeFiles/tests.dir/build
 
 tests/CMakeFiles/tests.dir/requires: tests/CMakeFiles/tests.dir/__/system/source/misc/MISCServiceProxy.cpp.o.requires
+tests/CMakeFiles/tests.dir/requires: tests/CMakeFiles/tests.dir/__/ai/source/AIServiceStub.cpp.o.requires
 tests/CMakeFiles/tests.dir/requires: tests/CMakeFiles/tests.dir/__/ai/source/AIServiceProxy.cpp.o.requires
+tests/CMakeFiles/tests.dir/requires: tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceStub.cpp.o.requires
 tests/CMakeFiles/tests.dir/requires: tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceProxy.cpp.o.requires
+tests/CMakeFiles/tests.dir/requires: tests/CMakeFiles/tests.dir/__/events/source/EventsService.cpp.o.requires
 tests/CMakeFiles/tests.dir/requires: tests/CMakeFiles/tests.dir/__/events/source/EventsServiceStub.cpp.o.requires
 tests/CMakeFiles/tests.dir/requires: tests/CMakeFiles/tests.dir/__/events/source/EventsServiceProxy.cpp.o.requires
 tests/CMakeFiles/tests.dir/requires: tests/CMakeFiles/tests.dir/integration/EventsServiceStubProxyTest.cpp.o.requires
+tests/CMakeFiles/tests.dir/requires: tests/CMakeFiles/tests.dir/system/EventServiceGotRecordingEvent.cpp.o.requires
 
 .PHONY : tests/CMakeFiles/tests.dir/requires
 

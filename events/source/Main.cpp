@@ -16,12 +16,13 @@ int main (int argc, char *argv[]) {
     EventsRepository eventsRepository(&localDataSource);
 
     AIServiceProxy aiServiceProxy;
+    aiServiceProxy.Init();
     MISCServiceProxy miscServiceProxy;
+    miscServiceProxy.Init();
 
     EventsService eventsService(&eventsRepository);
+    aiServiceProxy.SetListener(&eventsService);
     eventsService.Init();
-
-
 
     EventsServiceStub eventsServiceStub(&eventsService);
     eventsServiceStub.Init();

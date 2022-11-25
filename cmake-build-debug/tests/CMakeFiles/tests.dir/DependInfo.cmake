@@ -5,11 +5,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/ai/source/AIServiceProxy.cpp" "/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/tests/CMakeFiles/tests.dir/__/ai/source/AIServiceProxy.cpp.o"
+  "/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/ai/source/AIServiceStub.cpp" "/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/tests/CMakeFiles/tests.dir/__/ai/source/AIServiceStub.cpp.o"
+  "/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsService.cpp" "/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/tests/CMakeFiles/tests.dir/__/events/source/EventsService.cpp.o"
   "/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsServiceProxy.cpp" "/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/tests/CMakeFiles/tests.dir/__/events/source/EventsServiceProxy.cpp.o"
   "/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsServiceStub.cpp" "/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/tests/CMakeFiles/tests.dir/__/events/source/EventsServiceStub.cpp.o"
   "/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/recording/source/RecordingServiceProxy.cpp" "/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceProxy.cpp.o"
+  "/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/recording/source/RecordingServiceStub.cpp" "/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceStub.cpp.o"
   "/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/system/source/misc/MISCServiceProxy.cpp" "/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/tests/CMakeFiles/tests.dir/__/system/source/misc/MISCServiceProxy.cpp.o"
   "/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/tests/integration/EventsServiceStubProxyTest.cpp" "/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/tests/CMakeFiles/tests.dir/integration/EventsServiceStubProxyTest.cpp.o"
+  "/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/tests/system/EventServiceGotRecordingEvent.cpp" "/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug/tests/CMakeFiles/tests.dir/system/EventServiceGotRecordingEvent.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

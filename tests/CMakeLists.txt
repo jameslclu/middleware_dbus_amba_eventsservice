@@ -40,6 +40,7 @@ list(APPEND system_include_dir
 
 # ai
 list(APPEND ai_src
+        ../ai/source/AIServiceStub.cpp
         ../ai/source/AIServiceProxy.cpp)
 
 list(APPEND ai_include_dir
@@ -48,6 +49,7 @@ list(APPEND ai_include_dir
 
 # recording
 list(APPEND recording_src
+        ../recording/source/RecordingServiceStub.cpp
         ../recording/source/RecordingServiceProxy.cpp)
 
 list(APPEND recording_include_dir
@@ -55,6 +57,7 @@ list(APPEND recording_include_dir
 
 # events
 list(APPEND events_src
+        ../events/source/EventsService.cpp
         ../events/source/EventsServiceStub.cpp
         ../events/source/EventsServiceProxy.cpp)
 
@@ -68,7 +71,9 @@ add_executable(${modulename}
     ${ai_src}
     ${recording_src}
     ${events_src}
-    integration/EventsServiceStubProxyTest.cpp)
+    integration/EventsServiceStubProxyTest.cpp
+    #system/EventServiceGotAIEvent.cpp
+    system/EventServiceGotRecordingEvent.cpp)
 
 find_package(Threads)
 

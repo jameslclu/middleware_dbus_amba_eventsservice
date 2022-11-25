@@ -11,8 +11,10 @@
 #include "IEventsServiceListener.h"
 #include "IEventsService.h"
 #include "EventsRepository.h"
+#include "IRecordingServiceListener.h"
+#include "IAIServiceListener.h"
 
-class EventsService : public IEventsService
+class EventsService : public IEventsService, public IRecordingServiceListener, public IAIServiceListener
 {
 
 public:
@@ -25,9 +27,16 @@ public:
 	virtual int SetListener(IEventsServiceListener* plistener);
 	virtual int CustomCommand(string const& value, string &result);
 	virtual int GetEvents(string const& value, string &result);
-    virtual int GetAPIVersion(std::string &result);
+    virtual int GetAPIVersion(string& result);
+	virtual int onRecordingEvent(const std::string& str);
+	virtual int onAIEvent(std::string const& value);
+	virtual int onAIModelUpdateStatusChanged(std::string const& value);
+	virtual int onCustomAISignal(std::string const& value);
+
 protected:
     IEventsServiceListener *mp_IEventsServiceListener;
     EventsRepository *mp_EventsRepository;
+	IEventsServiceListener *m_IEventsServiceListener;
+	EventsRepository *m_EventsRepository;
 };
 #endif // !defined(EA_5031AB6C_0682_4bfd_A03A_E3D3C95F1AF6__INCLUDED_)

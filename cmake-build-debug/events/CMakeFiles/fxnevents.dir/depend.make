@@ -775,6 +775,8 @@ events/CMakeFiles/fxnevents.dir/source/EventsRepository.cpp.o: ../events/source/
 events/CMakeFiles/fxnevents.dir/source/EventsRepository.cpp.o: ../events/source/IEventsDataSource.h
 events/CMakeFiles/fxnevents.dir/source/EventsRepository.cpp.o: ../events/source/LocalDataSource.h
 
+events/CMakeFiles/fxnevents.dir/source/EventsService.cpp.o: ../events/../ai/include/IAIServiceListener.h
+events/CMakeFiles/fxnevents.dir/source/EventsService.cpp.o: ../events/../recording/include/IRecordingServiceListener.h
 events/CMakeFiles/fxnevents.dir/source/EventsService.cpp.o: ../events/source/EventsRepository.h
 events/CMakeFiles/fxnevents.dir/source/EventsService.cpp.o: ../events/source/EventsService.cpp
 events/CMakeFiles/fxnevents.dir/source/EventsService.cpp.o: ../events/source/EventsService.h
@@ -783,6 +785,8 @@ events/CMakeFiles/fxnevents.dir/source/EventsService.cpp.o: ../events/source/IEv
 events/CMakeFiles/fxnevents.dir/source/EventsService.cpp.o: ../events/source/IEventsServiceListener.h
 events/CMakeFiles/fxnevents.dir/source/EventsService.cpp.o: ../events/source/LocalDataSource.h
 
+events/CMakeFiles/fxnevents.dir/source/EventsServiceStub.cpp.o: ../events/../ai/include/IAIServiceListener.h
+events/CMakeFiles/fxnevents.dir/source/EventsServiceStub.cpp.o: ../events/../recording/include/IRecordingServiceListener.h
 events/CMakeFiles/fxnevents.dir/source/EventsServiceStub.cpp.o: ../events/source/EventsConfig.h
 events/CMakeFiles/fxnevents.dir/source/EventsServiceStub.cpp.o: ../events/source/EventsRepository.h
 events/CMakeFiles/fxnevents.dir/source/EventsServiceStub.cpp.o: ../events/source/EventsService.h
@@ -1042,6 +1046,13 @@ events/CMakeFiles/fxnevents.dir/source/LocalDataSource.cpp.o: ../events/source/I
 events/CMakeFiles/fxnevents.dir/source/LocalDataSource.cpp.o: ../events/source/LocalDataSource.cpp
 events/CMakeFiles/fxnevents.dir/source/LocalDataSource.cpp.o: ../events/source/LocalDataSource.h
 
+events/CMakeFiles/fxnevents.dir/source/Main.cpp.o: ../events/../ai/include/AIServiceProxy.h
+events/CMakeFiles/fxnevents.dir/source/Main.cpp.o: ../events/../ai/include/IAIService.h
+events/CMakeFiles/fxnevents.dir/source/Main.cpp.o: ../events/../ai/include/IAIServiceListener.h
+events/CMakeFiles/fxnevents.dir/source/Main.cpp.o: ../events/../recording/include/IRecordingServiceListener.h
+events/CMakeFiles/fxnevents.dir/source/Main.cpp.o: ../events/../system/include/misc/IMISCService.h
+events/CMakeFiles/fxnevents.dir/source/Main.cpp.o: ../events/../system/include/misc/IMISCServiceListener.h
+events/CMakeFiles/fxnevents.dir/source/Main.cpp.o: ../events/../system/include/misc/MISCServiceProxy.h
 events/CMakeFiles/fxnevents.dir/source/Main.cpp.o: ../events/source/EventsRepository.h
 events/CMakeFiles/fxnevents.dir/source/Main.cpp.o: ../events/source/EventsService.h
 events/CMakeFiles/fxnevents.dir/source/Main.cpp.o: ../events/source/EventsServiceStub.h

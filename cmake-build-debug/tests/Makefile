@@ -198,6 +198,60 @@ __/ai/source/AIServiceProxy.cpp.s:
 	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug && $(MAKE) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/__/ai/source/AIServiceProxy.cpp.s
 .PHONY : __/ai/source/AIServiceProxy.cpp.s
 
+__/ai/source/AIServiceStub.o: __/ai/source/AIServiceStub.cpp.o
+
+.PHONY : __/ai/source/AIServiceStub.o
+
+# target to build an object file
+__/ai/source/AIServiceStub.cpp.o:
+	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug && $(MAKE) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/__/ai/source/AIServiceStub.cpp.o
+.PHONY : __/ai/source/AIServiceStub.cpp.o
+
+__/ai/source/AIServiceStub.i: __/ai/source/AIServiceStub.cpp.i
+
+.PHONY : __/ai/source/AIServiceStub.i
+
+# target to preprocess a source file
+__/ai/source/AIServiceStub.cpp.i:
+	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug && $(MAKE) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/__/ai/source/AIServiceStub.cpp.i
+.PHONY : __/ai/source/AIServiceStub.cpp.i
+
+__/ai/source/AIServiceStub.s: __/ai/source/AIServiceStub.cpp.s
+
+.PHONY : __/ai/source/AIServiceStub.s
+
+# target to generate assembly for a file
+__/ai/source/AIServiceStub.cpp.s:
+	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug && $(MAKE) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/__/ai/source/AIServiceStub.cpp.s
+.PHONY : __/ai/source/AIServiceStub.cpp.s
+
+__/events/source/EventsService.o: __/events/source/EventsService.cpp.o
+
+.PHONY : __/events/source/EventsService.o
+
+# target to build an object file
+__/events/source/EventsService.cpp.o:
+	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug && $(MAKE) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/__/events/source/EventsService.cpp.o
+.PHONY : __/events/source/EventsService.cpp.o
+
+__/events/source/EventsService.i: __/events/source/EventsService.cpp.i
+
+.PHONY : __/events/source/EventsService.i
+
+# target to preprocess a source file
+__/events/source/EventsService.cpp.i:
+	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug && $(MAKE) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/__/events/source/EventsService.cpp.i
+.PHONY : __/events/source/EventsService.cpp.i
+
+__/events/source/EventsService.s: __/events/source/EventsService.cpp.s
+
+.PHONY : __/events/source/EventsService.s
+
+# target to generate assembly for a file
+__/events/source/EventsService.cpp.s:
+	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug && $(MAKE) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/__/events/source/EventsService.cpp.s
+.PHONY : __/events/source/EventsService.cpp.s
+
 __/events/source/EventsServiceProxy.o: __/events/source/EventsServiceProxy.cpp.o
 
 .PHONY : __/events/source/EventsServiceProxy.o
@@ -279,6 +333,33 @@ __/recording/source/RecordingServiceProxy.cpp.s:
 	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug && $(MAKE) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceProxy.cpp.s
 .PHONY : __/recording/source/RecordingServiceProxy.cpp.s
 
+__/recording/source/RecordingServiceStub.o: __/recording/source/RecordingServiceStub.cpp.o
+
+.PHONY : __/recording/source/RecordingServiceStub.o
+
+# target to build an object file
+__/recording/source/RecordingServiceStub.cpp.o:
+	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug && $(MAKE) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceStub.cpp.o
+.PHONY : __/recording/source/RecordingServiceStub.cpp.o
+
+__/recording/source/RecordingServiceStub.i: __/recording/source/RecordingServiceStub.cpp.i
+
+.PHONY : __/recording/source/RecordingServiceStub.i
+
+# target to preprocess a source file
+__/recording/source/RecordingServiceStub.cpp.i:
+	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug && $(MAKE) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceStub.cpp.i
+.PHONY : __/recording/source/RecordingServiceStub.cpp.i
+
+__/recording/source/RecordingServiceStub.s: __/recording/source/RecordingServiceStub.cpp.s
+
+.PHONY : __/recording/source/RecordingServiceStub.s
+
+# target to generate assembly for a file
+__/recording/source/RecordingServiceStub.cpp.s:
+	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug && $(MAKE) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/__/recording/source/RecordingServiceStub.cpp.s
+.PHONY : __/recording/source/RecordingServiceStub.cpp.s
+
 __/system/source/misc/MISCServiceProxy.o: __/system/source/misc/MISCServiceProxy.cpp.o
 
 .PHONY : __/system/source/misc/MISCServiceProxy.o
@@ -333,6 +414,33 @@ integration/EventsServiceStubProxyTest.cpp.s:
 	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug && $(MAKE) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/integration/EventsServiceStubProxyTest.cpp.s
 .PHONY : integration/EventsServiceStubProxyTest.cpp.s
 
+system/EventServiceGotRecordingEvent.o: system/EventServiceGotRecordingEvent.cpp.o
+
+.PHONY : system/EventServiceGotRecordingEvent.o
+
+# target to build an object file
+system/EventServiceGotRecordingEvent.cpp.o:
+	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug && $(MAKE) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/system/EventServiceGotRecordingEvent.cpp.o
+.PHONY : system/EventServiceGotRecordingEvent.cpp.o
+
+system/EventServiceGotRecordingEvent.i: system/EventServiceGotRecordingEvent.cpp.i
+
+.PHONY : system/EventServiceGotRecordingEvent.i
+
+# target to preprocess a source file
+system/EventServiceGotRecordingEvent.cpp.i:
+	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug && $(MAKE) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/system/EventServiceGotRecordingEvent.cpp.i
+.PHONY : system/EventServiceGotRecordingEvent.cpp.i
+
+system/EventServiceGotRecordingEvent.s: system/EventServiceGotRecordingEvent.cpp.s
+
+.PHONY : system/EventServiceGotRecordingEvent.s
+
+# target to generate assembly for a file
+system/EventServiceGotRecordingEvent.cpp.s:
+	cd /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/cmake-build-debug && $(MAKE) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/system/EventServiceGotRecordingEvent.cpp.s
+.PHONY : system/EventServiceGotRecordingEvent.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -349,6 +457,12 @@ help:
 	@echo "... __/ai/source/AIServiceProxy.o"
 	@echo "... __/ai/source/AIServiceProxy.i"
 	@echo "... __/ai/source/AIServiceProxy.s"
+	@echo "... __/ai/source/AIServiceStub.o"
+	@echo "... __/ai/source/AIServiceStub.i"
+	@echo "... __/ai/source/AIServiceStub.s"
+	@echo "... __/events/source/EventsService.o"
+	@echo "... __/events/source/EventsService.i"
+	@echo "... __/events/source/EventsService.s"
 	@echo "... __/events/source/EventsServiceProxy.o"
 	@echo "... __/events/source/EventsServiceProxy.i"
 	@echo "... __/events/source/EventsServiceProxy.s"
@@ -358,12 +472,18 @@ help:
 	@echo "... __/recording/source/RecordingServiceProxy.o"
 	@echo "... __/recording/source/RecordingServiceProxy.i"
 	@echo "... __/recording/source/RecordingServiceProxy.s"
+	@echo "... __/recording/source/RecordingServiceStub.o"
+	@echo "... __/recording/source/RecordingServiceStub.i"
+	@echo "... __/recording/source/RecordingServiceStub.s"
 	@echo "... __/system/source/misc/MISCServiceProxy.o"
 	@echo "... __/system/source/misc/MISCServiceProxy.i"
 	@echo "... __/system/source/misc/MISCServiceProxy.s"
 	@echo "... integration/EventsServiceStubProxyTest.o"
 	@echo "... integration/EventsServiceStubProxyTest.i"
 	@echo "... integration/EventsServiceStubProxyTest.s"
+	@echo "... system/EventServiceGotRecordingEvent.o"
+	@echo "... system/EventServiceGotRecordingEvent.i"
+	@echo "... system/EventServiceGotRecordingEvent.s"
 .PHONY : help
 
 

@@ -30,7 +30,7 @@ bool EventsService::IsReady(){
 	return true;
 }
 
-int EventsService::GetAPIVersion(std::string &result) {
+int EventsService::GetAPIVersion(string &result) {
     result = "GetAPIVersion";
     return 0;
 }
@@ -46,5 +46,29 @@ int EventsService::CustomCommand(string const& value, string &result) {
 
 int EventsService::GetEvents(string const& value, string &result){
     result = "GetEvents";
+	return 0;
+}
+
+
+int EventsService::onRecordingEvent(const std::string& str){
+
+	return 0;
+}
+
+
+int EventsService::onAIEvent(std::string const& value){
+
+	return 0;
+}
+
+
+int EventsService::onAIModelUpdateStatusChanged(std::string const& value){
+
+	return 0;
+}
+
+
+int EventsService::onCustomAISignal(std::string const& value){
+
 	return 0;
 }

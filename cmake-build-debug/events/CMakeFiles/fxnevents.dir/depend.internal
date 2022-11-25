@@ -776,6 +776,8 @@ events/CMakeFiles/fxnevents.dir/source/EventsRepository.cpp.o
  /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/IEventsDataSource.h
  /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/LocalDataSource.h
 events/CMakeFiles/fxnevents.dir/source/EventsService.cpp.o
+ ../events/../ai/include/IAIServiceListener.h
+ ../events/../recording/include/IRecordingServiceListener.h
  /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsRepository.h
  /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsService.cpp
  /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsService.h
@@ -784,6 +786,8 @@ events/CMakeFiles/fxnevents.dir/source/EventsService.cpp.o
  /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/IEventsServiceListener.h
  /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/LocalDataSource.h
 events/CMakeFiles/fxnevents.dir/source/EventsServiceStub.cpp.o
+ ../events/../ai/include/IAIServiceListener.h
+ ../events/../recording/include/IRecordingServiceListener.h
  /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsConfig.h
  /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsRepository.h
  /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsService.h
@@ -1043,6 +1047,13 @@ events/CMakeFiles/fxnevents.dir/source/LocalDataSource.cpp.o
  /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/LocalDataSource.cpp
  /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/LocalDataSource.h
 events/CMakeFiles/fxnevents.dir/source/Main.cpp.o
+ ../events/../ai/include/AIServiceProxy.h
+ ../events/../ai/include/IAIService.h
+ ../events/../ai/include/IAIServiceListener.h
+ ../events/../recording/include/IRecordingServiceListener.h
+ ../events/../system/include/misc/IMISCService.h
+ ../events/../system/include/misc/IMISCServiceListener.h
+ ../events/../system/include/misc/MISCServiceProxy.h
  /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsRepository.h
  /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsService.h
  /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsServiceStub.h

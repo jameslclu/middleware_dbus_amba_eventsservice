@@ -158,6 +158,17 @@ void *RecordingServiceProxy::innerThread(void *arg) {
     GError *error;
     while(!mt->m_ThreadExit) {
         pthread_mutex_lock(&m_mutex);
+
+        if (nullptr != pProxy) {
+            gchar *owner_name = g_dbus_proxy_get_name_owner((GDBusProxy*)pProxy);
+            if (nullptr == owner_name) {
+                s_IsConnectionDisconnetecd = true;
+                mt->m_IsReady = false;
+            } else {
+
+            }
+        }
+
         if (nullptr == pProxy || s_IsConnectionDisconnetecd) {
             bool bRet = TRUE;
 
@@ -187,7 +198,6 @@ void *RecordingServiceProxy::innerThread(void *arg) {
                     g_error_free(pConnError);
                     bRet = FALSE;
                 }
-                mt->m_IsReady = (bRet == TRUE);
                 sleep(1);
             } while(FALSE == bRet);
 
@@ -196,6 +206,7 @@ void *RecordingServiceProxy::innerThread(void *arg) {
                                                   G_CALLBACK (HandleOnSignal),
                                                   NULL);
             s_IsConnectionDisconnetecd = false;
+            mt->m_IsReady = (bRet == TRUE);
         }
         pthread_mutex_unlock(&m_mutex);
 

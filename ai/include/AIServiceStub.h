@@ -1,12 +1,6 @@
-///////////////////////////////////////////////////////////
-//  EventsServiceStub.h
-//  Implementation of the Class EventsServiceStub
-//  Created on:      24-十一月-2022 下午 04:03:35
-//  Original author: bms
-///////////////////////////////////////////////////////////
+#if !defined(MIDDLEWARE_AISERVICE_STUB_H_)
+#define MIDDLEWARE_AISERVICE_STUB_H_
 
-#if !defined(EA_F52F693F_B151_4194_B03A_353F79AFA39B__INCLUDED_)
-#define EA_F52F693F_B151_4194_B03A_353F79AFA39B__INCLUDED_
 #include <string>
 #include <glib/gprintf.h>
 #include <glib/gtypes.h>
@@ -15,28 +9,28 @@
 #include <gio/giotypes.h>
 #include <gio/gdbusconnection.h>
 
-#include "IEventsServiceListener.h"
-#include "EventsService.h"
-#include "IEventsService.h"
+#include "IAIService.h"
+#include "IAIServiceListener.h"
 
-using std::string;
-
-class EventsServiceStub : public IEventsServiceListener
+class AIServiceStub : public IAIServiceListener
 {
 
 public:
-	EventsServiceStub(IEventsService *pIEventsService);
-	virtual ~EventsServiceStub();
+    AIServiceStub(IAIService *aiService);
+
+	virtual ~AIServiceStub();
 
     int Init();
     int Deinit();
     bool IsReady();
 
-	virtual int onDataStorageEvent(string value);
-	virtual int onCustomEvent(string value);
-	int Interrupt(int cmd);
+    int Interrupt(int cmd);
 
-protected:
+    virtual int onAIEvent(std::string const& value);
+    virtual int onCustomAISignal(std::string const& value);
+    virtual int onAIModelUpdateStatusChanged(std::string const& value);
+
+private:
     static void on_bus_acquired (GDBusConnection *connection, const gchar *name, gpointer user_data);
     static void on_name_acquired (GDBusConnection *connection, const gchar *name, gpointer user_data);
     static void on_name_lost (GDBusConnection *connection, const gchar *name, gpointer user_data);
@@ -62,14 +56,5 @@ protected:
                                          const gchar *property_name, GVariant *value,
                                          GError **error, gpointer user_data);
 
-protected:
-//    static IEventsService *mp_EventsService;
-//	EventsService *m_EventsService;
-//    static IEventsService *mp_EventsService;
-//    static GMainLoop *loop;
-//    static guint owner_id;
-//    static GDBusConnection* sp_GDBusConnection;// = nullptr;
-//    static bool s_ready;// = false;
-//    static GDBusNodeInfo *introspection_data;// = nullptr;
 };
-#endif // !defined(EA_F52F693F_B151_4194_B03A_353F79AFA39B__INCLUDED_)
+#endif // !defined(MIDDLEWARE_SYSTEMSERVICE_STUB_H_)

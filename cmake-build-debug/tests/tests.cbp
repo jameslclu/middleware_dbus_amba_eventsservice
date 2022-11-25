@@ -307,7 +307,16 @@
 		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/ai/source/AIServiceProxy.cpp">
 			<Option target="tests"/>
 		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/ai/source/AIServiceStub.cpp">
+			<Option target="tests"/>
+		</Unit>
 		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/common/include">
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsService.cpp">
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsService.h">
 			<Option target="tests"/>
 		</Unit>
 		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsServiceProxy.cpp">
@@ -323,6 +332,9 @@
 			<Option target="tests"/>
 		</Unit>
 		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/recording/source/RecordingServiceProxy.cpp">
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/recording/source/RecordingServiceStub.cpp">
 			<Option target="tests"/>
 		</Unit>
 		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/system/source/misc/MISCServiceProxy.cpp">
@@ -342,6 +354,9 @@
 		</Unit>
 		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/tests/lib/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/tests/system/EventServiceGotRecordingEvent.cpp">
+			<Option target="tests"/>
 		</Unit>
 		<Unit filename="/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

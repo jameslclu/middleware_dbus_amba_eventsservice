@@ -10,6 +10,26 @@
 IAIService.h
 ../tests/../ai/include/IAIService.h
 
+../tests/../ai/include/AIServiceStub.h
+string
+-
+glib/gprintf.h
+-
+glib/gtypes.h
+-
+glib/gmain.h
+-
+gio/gio.h
+-
+gio/giotypes.h
+-
+gio/gdbusconnection.h
+-
+IAIService.h
+../tests/../ai/include/IAIService.h
+IAIServiceListener.h
+../tests/../ai/include/IAIServiceListener.h
+
 ../tests/../ai/include/IAIService.h
 string
 -
@@ -35,6 +55,10 @@ IEventsService.h
 ../tests/../events/source/IEventsService.h
 EventsRepository.h
 ../tests/../events/source/EventsRepository.h
+IRecordingServiceListener.h
+../tests/../events/source/IRecordingServiceListener.h
+IAIServiceListener.h
+../tests/../events/source/IAIServiceListener.h
 
 ../tests/../events/source/EventsServiceProxy.h
 IEventsServiceListener.h
@@ -78,9 +102,39 @@ string
 IEventsDataSource.h
 ../tests/../events/source/IEventsDataSource.h
 
+../tests/../recording/include/IRecordingService.h
+string
+-
+IRecordingServiceListener.h
+../tests/../recording/include/IRecordingServiceListener.h
+
 ../tests/../recording/include/IRecordingServiceListener.h
 string
 -
+
+../tests/../recording/include/RecordingServiceProxy.h
+IRecordingService.h
+../tests/../recording/include/IRecordingService.h
+
+../tests/../recording/include/RecordingServiceStub.h
+string
+-
+glib/gprintf.h
+-
+glib/gtypes.h
+-
+glib/gmain.h
+-
+gio/gio.h
+-
+gio/giotypes.h
+-
+gio/gdbusconnection.h
+-
+IRecordingServiceListener.h
+../tests/../recording/include/IRecordingServiceListener.h
+IRecordingService.h
+../tests/../recording/include/IRecordingService.h
 
 ../tests/../system/include/misc/IMISCService.h
 string
@@ -688,6 +742,16 @@ AIServiceProxy.h
 AIConfig.h
 /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/ai/source/AIConfig.h
 
+/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/ai/source/AIServiceStub.cpp
+unistd.h
+-
+sys/syslog.h
+-
+AIServiceStub.h
+/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/ai/source/AIServiceStub.h
+AIConfig.h
+/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/ai/source/AIConfig.h
+
 /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsConfig.h
 
 /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsRepository.h
@@ -696,6 +760,10 @@ LocalDataSource.h
 string
 -
 
+/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsService.cpp
+EventsService.h
+/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsService.h
+
 /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsService.h
 IEventsServiceListener.h
 /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/IEventsServiceListener.h
@@ -703,6 +771,10 @@ IEventsService.h
 /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/IEventsService.h
 EventsRepository.h
 /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsRepository.h
+IRecordingServiceListener.h
+/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/IRecordingServiceListener.h
+IAIServiceListener.h
+/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/IAIServiceListener.h
 
 /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/events/source/EventsServiceProxy.cpp
 gio/gio.h
@@ -804,6 +876,16 @@ unistd.h
 IRecordingServiceListener.h
 /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/recording/source/IRecordingServiceListener.h
 
+/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/recording/source/RecordingServiceStub.cpp
+unistd.h
+-
+string.h
+-
+sys/syslog.h
+-
+RecordingServiceStub.h
+/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/recording/source/RecordingServiceStub.h
+
 /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/system/source/misc/MISCServiceProxy.cpp
 gio/gio.h
 -
@@ -833,6 +915,24 @@ EventsServiceStub.h
 /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/tests/integration/EventsServiceStub.h
 EventsServiceProxy.h
 /mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/tests/integration/EventsServiceProxy.h
+
+/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/tests/system/EventServiceGotRecordingEvent.cpp
+thread
+-
+gtest/gtest.h
+/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/tests/system/gtest/gtest.h
+gmock/gmock.h
+/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/tests/system/gmock/gmock.h
+IEventsService.h
+/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/tests/system/IEventsService.h
+EventsServiceStub.h
+/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/tests/system/EventsServiceStub.h
+EventsServiceProxy.h
+/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/tests/system/EventsServiceProxy.h
+RecordingServiceStub.h
+/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/tests/system/RecordingServiceStub.h
+RecordingServiceProxy.h
+/mnt/d/workspaces/camera/middleware_dbus_amba_eventsservice/tests/system/RecordingServiceProxy.h
 
 /usr/include/glib-2.0/gio/gaction.h
 gio/giotypes.h
